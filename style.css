@@ -1,0 +1,63 @@
+* {
+  box-sizing: content-box;
+}
+
+body,
+html {
+  font-family: "Chewy", cursive;
+  height: 100%;
+}
+.bg-image {
+  background-image: url(./picturePerfect.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+.jumbotron {
+  padding: 10px;
+  background-color: transparent;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 60px;
+}
+.icon {
+  position: static;
+  margin-top: -50px;
+  margin-left: -30px;
+}
+
+.iconSmall {
+  width: 40px;
+}
+h4 {
+  color: black;
+}
+
+h5 {
+  font-size: 80%;
+}
+
+.card p {
+  font-size: 80%;
+}
+
+.p-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.mainResult.container {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+}
