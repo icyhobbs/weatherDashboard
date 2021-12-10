@@ -84,10 +84,13 @@ function getWeather(cityName) {
             var temp = $("<p>");
             temp.html("Temp.: " + data.list[i].main.temp +"°F");
 
+            var wind = $("<p>");
+            wind.html("Wind speed: " + data.list[i].wind.speed +" MPH");
+
             var humidity = $("<p>");
             humidity.html("Humidity: " + data.list[i].main.humidity +"%");
 
-            card.append(card, name, icon, temp, humidity)
+            card.append(card, name, icon, temp,wind, humidity)
         }
         });
 }
